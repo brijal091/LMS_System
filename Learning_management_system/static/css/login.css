@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.login-container{
+    z-index: 1;
+    text-align: center;
+    margin: 100px;
+    border: 3px solid black;
+    text-align: center;
+    height: 65vh;
+    width: 30vw; 
+    opacity: 0.8;
+    border: 3px solid white;
+}
+.header{
+    color: #18d26e;
+    font-size: 2rem;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+.lable{
+    display: inline-block;
+    color: white;
+    margin-right: 275px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.input input[type="text"], input[type="email"], input[type="password"]{
+    width: 80%;
+    margin-bottom: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ffff;
+    background: transparent;
+    color: #ffff;
+    height: 40px;
+}
+.btn{
+    margin-top: 15px;
+    margin-right: 275px;
+    border-radius: 10px;
+    background-color: #18d26e;
+    opacity: 0.89;
+    color: black;
+    height: 2.7rem;
+    width: 6.5rem;
+    padding: 8px;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: rgba(14, 185, 43, 0.938);
+    opacity: 0.8;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
