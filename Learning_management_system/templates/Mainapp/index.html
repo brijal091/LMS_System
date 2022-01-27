@@ -19,9 +19,9 @@
           <li><a href="#resume">Resume</a></li>
           <!-- <li><a href="/login">Login</a></li> -->
           {% if user.is_authenticated %}
-          <li><a href="/logout">Logout</a></li>
+          <li><a href="{%url 'account_logout' %}">Logout</a></li>
           {% else %}
-          <li><a href="/login">Login</a></li>
+          <li><a href="{%url 'account_login' %}">Login</a></li>
           {% endif %}
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
