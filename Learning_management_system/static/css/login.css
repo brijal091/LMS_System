@@ -3,6 +3,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    margin: 10px;
 }
 .login-container{
     z-index: 1;
@@ -59,3 +61,4 @@
     cursor: pointer;
     text-decoration: underline;
 }
+
